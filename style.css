@@ -417,4 +417,89 @@ footer {
         box-shadow: 0 10px 27px rgba(0,0,0,0.05);
         padding: 2rem 0;
     }
+    
+    .hamburger {
+        display: flex;
+    }
+
+    .nav-menu {
+        position: fixed;
+        left: -100%;
+        top: 75px;
+        flex-direction: column;
+        background: white;
+        width: 100%;
+        text-align: center;
+        transition: 0.3s;
+        padding: 20px 0;
+        box-shadow: 0 10px 20px rgba(0,0,0,.1);
+    }
+
+    .nav-menu.active{
+        left:0;
+    }
+
+    .nav-container{
+        padding:0 15px;
+    }
+
+    .hero-container{
+        grid-template-columns:1fr;
+        padding-top: 40px;
+        text-align:center;
+        gap:2rem;
+    }
+
+    .hero-content h1{
+        font-size:2.3rem;
+    }
+
+    .hero-content h2{
+        font-size:1.2rem;
+    }
+
+    .hero-content p{
+        font-size:1rem;
+    }
+
+    .hero-buttons{
+        justify-content:center;
+        flex-wrap:wrap;
+    }
+
+    .profile-pic img{
+        width:220px;
+        height:220px;
+        margin:auto;
+    }
+
+    .about-stats{
+        flex-direction:column;
+        gap:2rem;
+    }
+
+    .skills-grid{
+        grid-template-columns:1fr;
+    }
+
+    .projects-grid{
+        grid-template-columns:1fr;
+    }
+
+    .contact-content{
+        grid-template-columns:1fr;
+        gap:2rem;
+    }
+
+    .section-title{
+        font-size:2rem;
+    }
+
+    .project-card{
+        margin:0 10px;
+    }
+
+    .container{
+        padding:0 15px;
+    }
 }
